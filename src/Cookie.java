@@ -14,8 +14,16 @@ public class Cookie extends DessertItem {
         return cost;
     }
 
+    public void setNumberOfCookies(int numberOfCookies) {
+        this.numberOfCookies = numberOfCookies;
+    }
+
     public int getNumberOfCookies() {
         return numberOfCookies;
+    }
+
+    public void setPricePerDozen(int pricePerDozen) {
+        this.pricePerDozen = pricePerDozen;
     }
 
     public int getPricePerDozen() {
